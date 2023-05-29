@@ -52,6 +52,10 @@ header .contenedor nav a:hover {
 	padding: 0.71em;
 	width: 80%;
 }
+.contenido p {
+	margin-top: 0.35em;
+	text-align: justify;
+}
 .barra-lateral {
 	font-size: 14px;
 	background-color: var(--complementario1);
@@ -59,10 +63,14 @@ header .contenedor nav a:hover {
 	padding: 0.71em;
 	width: 20%;
 }
+.barra-lateral ol {
+	padding: 0.71em;
+}
 .contenedor .pie-pagina footer {
 	font-size: 14px;
 	margin: 1.4em 0 0 0;
 	border-radius: 0.35em;
 	padding: 0.71em;
 	background-color: var(--neutro);
+	color: var(--principal1);
 }
