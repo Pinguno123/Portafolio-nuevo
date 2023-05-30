@@ -1,0 +1,37 @@
+:root {
+	--principal: rgb(46, 134, 193);
+	--principal1: rgb(255, 255, 255);
+	--destacado: RGB(231, 76, 60);
+	--destacado1: RGB(241, 196, 15);
+	--complementario: RGB(52, 152, 219);
+	--complementario1: RGB(243, 156, 18);
+	--neutro: RGB(51, 51, 51);
+	--neutro1: RGB(204, 204, 204);
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.contenedor {
+	width: 90%;
+	margin:  0 auto;
+}
+header {
+	padding: 20px 0;
+}
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	margin-bottom: 0.75em;
+}
+header .contenedor nav a {
+	color: var(--neutro);
+	text-decoration: none;
+	margin-right: 0.5em;
+}
+header .contenedor nav a:hover {
+	color: var(--neutro1);
+}
